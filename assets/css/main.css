@@ -3215,8 +3215,23 @@ input, select, textarea {
 
 	}
 
-	/* .work-item .image.fit.thumb img {
-		width: 100%; /* Ensures the images take up the full width of their container */
-		height: 200px; /* Set a fixed height for the images */
-		object-fit: cover; /* Ensures the images cover the specified area without distortion */
-	} */
+
+	.project-item {
+		text-align: center;
+		margin-bottom: 2rem;
+	  }
+	
+	  .project-image {
+		width: 100%;
+		height: auto;
+		border-radius: 8px;
+	  }
+	
+	  .project-item h3 {
+		margin-top: 1rem;
+	  }
+	
+	  .project-item p {
+		font-size: 0.9rem;
+		color: #666;
+	  }
